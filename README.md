@@ -57,3 +57,13 @@ Criação de Cenários de Game Over
 A lógica que determina o término do jogo pode ser ajustada para ser mais sensível a colisões, tornando o jogo mais punitivo. Por exemplo, permitir que uma peça comece em uma posição mais alta no grid pode resultar em um game over mais rápido.
 
 A manipulação do RNG e a lógica do jogo são ferramentas poderosas para moldar a experiência do jogador. Ao ajustar os pesos das formas e a velocidade do jogo, é possível criar um ambiente desafiador que pode levar à derrota do jogador, mesmo que ele tenha habilidades adequadas. A implementação cuidadosa dessas estratégias pode resultar em uma experiência de jogo que, embora divertida, também pode ser frustrante e desafiadora.
+
+Como jogar
+
+O jogo utiliza a biblioteca Pygame. Para instalá-la, abra o terminal ou o prompt de comando e execute: pip install pygame
+o jogo está em um repositório do GitHub, você pode cloná-lo.
+O código faz referência a uma imagem chamada gatinhos.png, você pode criar uma ou usar qualquer outra imagem, mas lembre-se de renomeá-la para gatinhos.png.
+Use as setas do teclado para mover as peças e a barra de espaço para girá-las. Você também pode reiniciar ou pausar o jogo usando os botões na tela.
+
+
+
