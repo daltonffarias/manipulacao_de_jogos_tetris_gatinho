@@ -34,8 +34,10 @@ Geração de Formas e Pesos
 
 Pesos: Cada forma tem um peso associado. Por exemplo, formas mais difíceis podem receber pesos maiores, aumentando a chance de serem escolhidas. Essa manipulação pode ser ajustada para criar uma experiência de jogo mais desafiadora, levando o jogador à derrota.
 
-Lógica de Jogo
+# Lógica de Jogo
+
 Colisão e Limpeza de Linhas
+
 A função check_collision verifica se a peça atual colide com outras peças ou com os limites do tabuleiro, enquanto clear_lines remove linhas completas, aumentando a pontuação do jogador.
 
 Loop Principal
