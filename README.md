@@ -37,13 +37,8 @@ A função check_collision verifica se a peça atual colide com outras peças ou
 Loop Principal
 O loop principal do jogo gerencia a lógica de atualização e renderização:
 
-while True:
-    current_time = pygame.time.get_ticks()
-    if not paused and not game_over and current_time - last_drop_time > SPEEDS[level]:
-        piece.y += 1
-        if check_collision(piece, board):
-            piece.y -= 1
-            # Adiciona a peça ao tabuleiro e limpa linhas
+![image](https://github.com/user-attachments/assets/52d503dd-4476-478c-8d4e-6bdbb2604103)
+
 
 Manipulação do Tempo: O tempo de queda das peças é controlado pela lista SPEEDS. Ajustar esses valores pode aumentar a velocidade do jogo, dificultando a reação do jogador.
 
