@@ -42,15 +42,18 @@ O loop principal do jogo gerencia a lógica de atualização e renderização:
 
 Manipulação do Tempo: O tempo de queda das peças é controlado pela lista SPEEDS. Ajustar esses valores pode aumentar a velocidade do jogo, dificultando a reação do jogador.
 
-##Estratégias de Manipulação
+#Estratégias de Manipulação
 
 Alteração de Pesos
+
 Aumentar os pesos de peças mais difíceis ou diminuir os de peças mais fáceis pode ser uma forma eficaz de manipular a experiência do jogador. Por exemplo, se o jogador estiver se saindo bem, aumentar a probabilidade de peças mais desafiadoras pode levar à perda.
 
 Ajuste de Velocidade
+
 Reduzir o intervalo de tempo entre a queda das peças (diminuindo os valores em SPEEDS) pode criar uma pressão adicional sobre o jogador, dificultando a colocação correta das peças.
 
 Criação de Cenários de Game Over
+
 A lógica que determina o término do jogo pode ser ajustada para ser mais sensível a colisões, tornando o jogo mais punitivo. Por exemplo, permitir que uma peça comece em uma posição mais alta no grid pode resultar em um game over mais rápido.
 
 A manipulação do RNG e a lógica do jogo são ferramentas poderosas para moldar a experiência do jogador. Ao ajustar os pesos das formas e a velocidade do jogo, é possível criar um ambiente desafiador que pode levar à derrota do jogador, mesmo que ele tenha habilidades adequadas. A implementação cuidadosa dessas estratégias pode resultar em uma experiência de jogo que, embora divertida, também pode ser frustrante e desafiadora.
