@@ -11,9 +11,13 @@ Estrutura do Código
 
 
 BLOCK_SIZE: Define o tamanho de cada bloco no grid.
+
 WIDTH e HEIGHT: Definem a largura e a altura do grid, respectivamente.
+
 SHAPES: Contém as diferentes formas que as peças podem assumir, representadas por matrizes.
+
 COLORS: Lista de cores que serão atribuídas aleatoriamente às peças.
+
 SPEEDS: Define a velocidade de queda das peças, que aumenta conforme o nível do jogo.
 
 Classe Piece
