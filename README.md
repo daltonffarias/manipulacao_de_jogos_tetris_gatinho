@@ -1,4 +1,4 @@
-Manipulação do Jogo Através do RNG
+# Manipulação do Jogo Através do RNG
 # tetris_gatinho
 
 O artigo (https://piaui.folha.uol.com.br/como-as-bets-produziram-a-pandemia-do-vicio/) me fez pensar em como os jogos podem ser manipulados. De forma simples, vou aqui explicar através deste jogo criado para demonstrar a manipulação.
