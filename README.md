@@ -18,12 +18,9 @@ SPEEDS: Define a velocidade de queda das peças, que aumenta conforme o nível d
 
 Classe Piece
 A classe Piece é responsável por gerenciar as peças do jogo:
-class Piece:
-    def __init__(self):
-        self.shape = self.get_shape()
-        self.color = random.choice(COLORS)
-        self.x = WIDTH // 2 - len(self.shape[0]) // 2
-        self.y = 0
+
+![image](https://github.com/user-attachments/assets/260d48bc-e88e-48d3-8ba6-c0cb33aa0ced)
+
 get_shape: Método crucial que utiliza pesos para determinar a forma da peça gerada. A manipulação dos pesos pode ser uma estratégia para aumentar a dificuldade.
 
 Geração de Formas e Pesos
