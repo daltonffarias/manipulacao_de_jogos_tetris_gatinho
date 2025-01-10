@@ -62,7 +62,7 @@ Como jogar
 
 O jogo utiliza a biblioteca Pygame. Para instalá-la, abra o terminal ou o prompt de comando e execute: pip install pygame
 
-O jogo está em um repositório do GitHub, você pode cloná-lo.
+O jogo está neste repositório, você pode cloná-lo.
 
 O código faz referência a uma imagem chamada gatinhos.png, você pode criar uma ou usar qualquer outra imagem, mas lembre-se de renomeá-la para gatinhos.png.
 
