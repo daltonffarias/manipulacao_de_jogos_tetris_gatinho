@@ -66,6 +66,8 @@ O jogo está neste repositório, você pode cloná-lo.
 
 O código faz referência a uma imagem chamada gatinhos.png, você pode criar uma ou usar qualquer outra imagem, mas lembre-se de renomeá-la para gatinhos.png.
 
+Para executar: python tetris_gatinho.py
+
 Use as setas do teclado para mover as peças e a barra de espaço para girá-las. Você também pode reiniciar ou pausar o jogo usando os botões na tela.
 
 
