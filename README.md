@@ -42,7 +42,8 @@ O loop principal do jogo gerencia a lógica de atualização e renderização:
 
 Manipulação do Tempo: O tempo de queda das peças é controlado pela lista SPEEDS. Ajustar esses valores pode aumentar a velocidade do jogo, dificultando a reação do jogador.
 
-Estratégias de Manipulação
+##Estratégias de Manipulação
+
 Alteração de Pesos
 Aumentar os pesos de peças mais difíceis ou diminuir os de peças mais fáceis pode ser uma forma eficaz de manipular a experiência do jogador. Por exemplo, se o jogador estiver se saindo bem, aumentar a probabilidade de peças mais desafiadoras pode levar à perda.
 
