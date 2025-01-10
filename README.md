@@ -7,11 +7,8 @@ O jogo é uma implementação em Python utilizando a biblioteca Pygame, inspirad
 
 Estrutura do Código
 
-BLOCK_SIZE = 30
-WIDTH, HEIGHT = 10, 20  # Tamanho do grid
-SHAPES = [...]
-COLORS = [...]
-SPEEDS = [500, 400, 300, 200, 100]  # Velocidades em milissegundos
+![image](https://github.com/user-attachments/assets/0f4c268a-7536-400f-bf75-48631477ee3c)
+
 
 BLOCK_SIZE: Define o tamanho de cada bloco no grid.
 WIDTH e HEIGHT: Definem a largura e a altura do grid, respectivamente.
