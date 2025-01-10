@@ -61,9 +61,13 @@ A manipulação do RNG e a lógica do jogo são ferramentas poderosas para molda
 Como jogar
 
 O jogo utiliza a biblioteca Pygame. Para instalá-la, abra o terminal ou o prompt de comando e execute: pip install pygame
-o jogo está em um repositório do GitHub, você pode cloná-lo.
+
+O jogo está em um repositório do GitHub, você pode cloná-lo.
+
 O código faz referência a uma imagem chamada gatinhos.png, você pode criar uma ou usar qualquer outra imagem, mas lembre-se de renomeá-la para gatinhos.png.
+
 Use as setas do teclado para mover as peças e a barra de espaço para girá-las. Você também pode reiniciar ou pausar o jogo usando os botões na tela.
+
 
 
 
