@@ -25,20 +25,8 @@ get_shape: Método crucial que utiliza pesos para determinar a forma da peça ge
 
 Geração de Formas e Pesos
 
-def get_shape(self):
-    shapes_with_weights = [
-        (SHAPES[0], 1),
-        (SHAPES[1], 1),
-        (SHAPES[2], 2),
-        ...
-    ]
-    total_weight = sum(weight for _, weight in shapes_with_weights)
-    rand_value = random.randint(1, total_weight)
+![image](https://github.com/user-attachments/assets/7fb666ae-0ff6-498d-9d15-346bbb921652)
 
-    for shape, weight in shapes_with_weights:
-        if rand_value <= weight:
-            return shape
-        rand_value -= weight
 
 Pesos: Cada forma tem um peso associado. Por exemplo, formas mais difíceis podem receber pesos maiores, aumentando a chance de serem escolhidas. Essa manipulação pode ser ajustada para criar uma experiência de jogo mais desafiadora, levando o jogador à derrota.
 
