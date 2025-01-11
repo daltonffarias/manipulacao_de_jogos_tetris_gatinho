@@ -74,6 +74,8 @@ O código faz referência a uma imagem chamada gatinhos.png, você pode criar um
 
 Para executar: python tetris_gatinho.py
 
+![image](https://github.com/user-attachments/assets/45a59330-052f-4eef-b451-3c53964fbb2c)
+
 Use as setas do teclado para mover as peças e a barra de espaço para girá-las. Você também pode reiniciar ou pausar o jogo usando os botões na tela.
 
 
