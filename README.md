@@ -3,7 +3,7 @@
 
 O artigo (https://piaui.folha.uol.com.br/como-as-bets-produziram-a-pandemia-do-vicio/) me fez pensar em como os jogos podem ser manipulados. De forma simples, vou aqui explicar através deste jogo criado para demonstrar a manipulação.
 
-O jogo é uma implementação em Python utilizando a biblioteca Pygame, inspirado no clássico Tetris. A mecânica central do jogo envolve a geração aleatória de peças, onde a manipulação do Gerador de Números Aleatórios (RNG) pode impactar significativamente a experiência do jogador, resultando em desafios que podem levar à derrota.
+O jogo é uma implementação em Python utilizando a biblioteca Pygame, inspirado no clássico Tetris. A mecânica central do jogo envolve a geração aleatória de peças, e a manipulação do Gerador de Números Aleatórios (Random Number Generator - RNG) pode impactar significativamente a experiência do jogador, resultando em desafios que podem levar à derrota.
 
 Estrutura do Código
 
